@@ -2,20 +2,10 @@
 
 Welcome to **me-3d**, an interactive 3D shape playground built with Next.js, Tailwind CSS, TypeScript, and React Three Fiber.
 
-## Getting Started
+## Description
 
-1. Clone this repository:
-   git clone https://github.com/bdgcypher/me-3d.git
-   cd me-3d
-
-2. Install dependencies:
-npm install
-
-3. Start the development server:
-npm run dev
-
-4. Open your browser and navigate to http://localhost:3000.
-Happy coding! 🚀
+- This project is a simple scene with a light and a shape on a flat surface. The shape can be clicked and dragged around the scene.
+- Sparked by an interest in adding some 3D touches to future projects, I created the repo to practice working with R3F and Three.js.
 
 ## Features
 
