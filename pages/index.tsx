@@ -9,6 +9,7 @@ import Dodecahedron from "@/components/Dodecahedron";
 import { useState } from "react";
 import LightShade from "@/components/LightShade";
 import Box from "@/components/Box";
+import Cone from "@/components/Cone";
 
 extend({ Canvas });
 
@@ -35,6 +36,7 @@ export default function Home() {
         <LightBulb position={[0, 0, 21]} />
         <Dodecahedron position={[0, 0, 0]} hover={setHoverShape} />
         <Box position={[10, 0, 0]} hover={setHoverShape} />
+        <Cone position={[-10, 0, 0]} hover={setHoverShape} />
         <Floor position={[0, -1, -1]} />
         <Floor position={[0, 13.8, 14]} rotation-x={1.58} />
         <Floor position={[19.9, 4, 14]} rotation-x={1.572} rotation-y={-1.58} />
