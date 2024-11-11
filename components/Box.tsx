@@ -9,7 +9,7 @@ function Box(props: any) {
   const { size, viewport } = useThree();
   const aspect = size.width / viewport.width;
   const [spring, setSpring] = useSpring(() => ({
-    scale: [1, 1, 1],
+    scale: [1.1, 1.1, 1.1],
     position: [10, 1, -.5],
     rotation: [0, 0, 0],
     config: { friction: 10 },
@@ -21,7 +21,7 @@ function Box(props: any) {
         rotation: [y / aspect, x / aspect, 0],
       }),
     onHover: ({ hovering }) =>
-      setSpring({ scale: hovering ? [1.2, 1.2, 1.2] : [1, 1, 1] }),
+      setSpring({ scale: hovering ? [1.2, 1.2, 1.2] : [1.1, 1.1, 1.1] }),
     onPointerDown: () => {
       setHoverShape(true);
     },
