@@ -4,7 +4,7 @@ Welcome to **me-3d**, an interactive 3D shape playground built with Next.js, Tai
 
 ## Description
 
-- This project is a simple scene with a lightbulb and shapes on a flat surface. The shapes can be clicked and dragged around the scene.
+- This project is a simple scene with a lightbulb and several different shapes on a flat surface. The shapes can be clicked and dragged around the scene.
 - Sparked by an interest in adding some 3D touches to future projects, I created the repo to practice working with R3F and Three.js.
 
 ## Features
